@@ -1,0 +1,42 @@
+nav 
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: auto;
+    background-color: aqua;
+}
+
+.logo
+{
+    font-size: 30px;
+    font-weight: 200px;
+    color: darkblue;
+}
+
+.menu 
+{
+    display:flex;
+    list-style: none;
+    gap:50px;
+}
+*{
+    box-sizing:boorder-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+background:linear-gradient( to left,yellow,orange);
+min-height:100 vh;
+}
+.menu li a{
+    text-decoration:none;
+    color:plum;
+    padding:10px 15px;
+    transition:0.3s;
+    border-radius:5px;
+}
+.menu li a:hover,
+.active{
+    background:green;
+}
