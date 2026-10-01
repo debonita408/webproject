@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvectica,sans-serif;
+}
+body{
+    background:linear-gradient(purple);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:white;
+}
+.logo{
+    font-size:18px;
+    font-weight:bold;
+}
+.menu{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+.menu lia a{
+    text-decoration: none;
+    color:white;
+    padding:10px 15px;
+    border-radius:5px;
+    transition:0.3s;
+}
+.menu li a:hover,
+.active{
+    background:#00bcd4;
+}
